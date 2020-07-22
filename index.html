@@ -1,121 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <div>
-            <span> <a href='index.html'> AF Wake - School of Watersports </a></span>
-        </div>
-        <nav>
-            <ul>
-                <li>
-            <a href='#home'> Home </a>
-                </li>
-                <li>
-            <a href='#activities'> Activities </a>
-                </li>
-                <li>
-            <a href='#pricing'> Price </a>    
-                </li>
-                <li>
-            <a href='#contacts'> Contacts </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-    <section id='home'>
-    <img src='img/MainPage.jpg' alt='Home page with yacht and kite wing'>
-    <p>
-    <i>
-        Regardless of whether you want to learn your first invert, add another rotation to your favorite spin, or finally get a solid wake jump under your belt, wakeboard camp is the place to do it. At wakeboard camp, the mission is to get you safely to your next level through face-to-face professional instruction — all while having the best time of your life. The camps and schools on this list — presented in alphabetical order — have set themselves apart over the years by providing exemplary service and next-level results without the punishing falls. Consider this the first step on your path to wakeboarding progression.
-    </i>
-    </p>
-    </section>
-    <section id='activities'>
-        <h2>Yachting</h2>
-        <img src='img/yachting.jpg' alt='yachting'>
-        <p>
-        Yachting is the use of recreational boats and ships called yachts for racing or cruising. Yachts are distinguished from working ships mainly by their leisure purpose. "Yacht" derives from the Dutch word jacht ("hunt"). With sailboats, it is the activity is called sailing, and with motorboats, it is called powerboating.
-        </p>
-        <h2>Kitesurfing</h2>
-        <img src='img/kitesurfing.jpg' alt='kitesurfing'>
-        <p>
-        Kiteboarding, also known as kitesurfing[1], is an action sport combining aspectsof wakeboarding, snowboarding, windsurfing, surfing, paragliding, skateboarding and sailing into one extreme sport. A kiteboarder harnesses the power of the wind with a large controllable power kite to be propelled across the water, land, or snow.
-        </p>
-        <h2>Wakeboarding</h2>
-        <img src='img/wakeboarding.jpg' alt='wakeboarding'>
-        <p>
-        Wakeboarding is a water sport in which the rider, standing on a wakeboard (a short board with foot bindings), is towed behind a motorboat across its wake and especially up off the crest in order to perform aerial maneuvers.A hallmark of wakeboarding is the attempted performance of midair tricks.
-        </p>
-    </section>
-    <section id='pricing'>
-    <h2>Pricing</h2>
-    <table border="1">
-  <tr>
-    <th>Activity</th>
-    <th>10 minutes</th>
-    <th>30 minutes</th>
-    <th>60 minutes</th>
-  </tr>
-  <tr>
-    <td>Kitesurfing</td>
-    <td>10 $</td>
-    <td>25 $</td>
-    <td>50 $</td>
-  </tr>
-  <tr>
-    <td>Wakeboarding</td>
-    <td>5 $</td>
-    <td>10 $</td>
-    <td>20 $</td>
-  </tr>
-</table>
-<div>
-<table border="1">
-<tr>
-    <th>Yachting</th>
-    <th>1-7 Days</th>
-    <th>8-10 Days</th>
-    <th>11-15 Days</th>
-</tr>
-<tr>
-<td>Cost per day:</td>
-<td>30 $</td>
-<td>25 $</td>
-<td>22 $</td>
-</tr>
-</table>
-</div>
-    </section>
-</main>
-<section id='contacts'>
-<h2>Contact Us</h2>
 
-    <form action="https://formspree.io/mgenprga" method ="POST">
-<p>
-    <label>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AF Wake</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<header>
+		<div class="name">
+			<a href='index.html'> AF Wake - School of Watersports </a>
+		</div>
+		<nav>
+			<ul class="menu">
+				<li><a href='#home'> Home </a></li>
+				<li><a href='#activities'> Activities </a></li>
+				<li><a href='#pricing'> Price </a></li>
+				<li><a href='#contacts'> Contacts </a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id='home'>
+			<!--
+        	<img src='img/MainPage.jpg' alt='Home page with yacht and kite wing'>
+          -->
+			<div class="callus">
+				<button>Call Us</button>
+			</div>
+			<p>
+				<i>
+                Regardless of whether you want to learn your first invert, add another rotation to your favorite spin, or finally get a solid wake jump under your belt, wakeboard camp is the place to do it. At wakeboard camp, the mission is to get you safely to your next level through face-to-face professional instruction — all while having the best time of your life. The camps and schools on this list — presented in alphabetical order — have set themselves apart over the years by providing exemplary service and next-level results without the punishing falls. Consider this the first step on your path to wakeboarding progression.
+                </i>
+			</p>
+		</section>
+		<section id='activities'>
+			<h2>Yachting</h2>
+			<img src='img/yachting.jpg' alt='yachting'>
+			<p id="yachting_desc">
+				Yachting is the use of recreational boats and ships called yachts for racing or cruising. Yachts are
+				distinguished from working ships mainly by their leisure purpose. "Yacht" derives from the Dutch word
+				jacht ("hunt"). With sailboats, it is the activity is called sailing, and with motorboats, it is called
+				powerboating.
+			</p>
+			<h2>Kitesurfing</h2>
+			<img src='img/kitesurfing.jpg' alt='kitesurfing'>
+			<p>
+				Kiteboarding, also known as kitesurfing[1], is an action sport combining aspectsof wakeboarding,
+				snowboarding, windsurfing, surfing, paragliding, skateboarding and sailing into one extreme sport. A
+				kiteboarder harnesses the power of the wind with a large controllable power kite to be propelled across
+				the water, land, or snow.
+			</p>
+			<h2>Wakeboarding</h2>
+			<img src='img/wakeboarding.jpg' alt='wakeboarding'>
+			<p>
+				Wakeboarding is a water sport in which the rider, standing on a wakeboard (a short board with foot
+				bindings), is towed behind a motorboat across its wake and especially up off the crest in order to
+				perform aerial maneuvers.A hallmark of wakeboarding is the attempted performance of midair tricks.
+			</p>
+		</section>
+		<section id='pricing'>
+			<h2>Pricing</h2>
+			<table border="1">
+				<tr>
+					<th>Activity</th>
+					<th>10 minutes</th>
+					<th>30 minutes</th>
+					<th>60 minutes</th>
+				</tr>
+				<tr>
+					<td>Kitesurfing</td>
+					<td>10 $</td>
+					<td>25 $</td>
+					<td>50 $</td>
+				</tr>
+				<tr>
+					<td>Wakeboarding</td>
+					<td>5 $</td>
+					<td>10 $</td>
+					<td>20 $</td>
+				</tr>
+			</table>
+			<div>
+				<table border="1">
+					<tr>
+						<th>Yachting</th>
+						<th>1-7 Days</th>
+						<th>8-10 Days</th>
+						<th>11-15 Days</th>
+					</tr>
+					<tr>
+						<td>Cost per day:</td>
+						<td>30 $</td>
+						<td>25 $</td>
+						<td>22 $</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+	</main>
+	<section id='contacts'>
+		<h2>Contact Us</h2>
+
+		<form action="https://formspree.io/mgenprga" method="POST">
+			<p>
+				<label>
         Name:
-        <input type="text" id="conctactname" required>
+        <input type="text" id="conctactname" placeholder="Your Name" required>
     </label>
-</p>
-    <label>
+			</p>
+			<label>
         Email:
-        <input type="text" id='contactemail' required>
+        <input type="text" id='contactemail' placeholder="Email" required>
     </label>
-<p>
-    <label>
+			<p>
+				<label>
         Message:
-        <input type="text" id="contactmessage">
+        <input type="text" id="contactmessage" placeholder="Message">
     </label>
-</p>     
-<input type="submit">
-</form>  
-</section>
+			</p>
+			<input type="submit">
+</form>
+	</section>
 
 </body>
+
 </html>

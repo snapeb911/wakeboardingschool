@@ -1,0 +1,73 @@
+ :root {
+    --head-color:#E2E2E2;
+    --hover-head-color:#ff9c02;
+ }
+body {
+    max-width: 980px ;
+    margin:auto ;
+}
+
+
+ header{
+    background-color: black;    
+ }
+
+ header .name a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: yellow;
+}
+
+header .name {
+    text-align: center;
+}
+
+header nav .menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    flex: 1;
+
+}
+header > nav > ul.menu > li > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--head-color);
+    padding: 5px;
+}
+header > nav > ul.menu > li > a:hover{
+    color: var(--hover-head-color); 
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+}
+
+main #home {
+    background-image: url(../img/MainPage.jpg);
+    background-position: top;
+    background-size: cover;
+    min-height: 150 px;
+    min-width: 500 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main #home button{
+    font-style: italic;
+}
+
+main #activities h2 {
+    text-align: center;
+}
+
+main #yachting_desc {
+    text-align: right;
+}
